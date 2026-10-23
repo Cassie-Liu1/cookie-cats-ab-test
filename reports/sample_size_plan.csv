@@ -1,0 +1,13 @@
+metric,planning_baseline,target_treatment_rate,mde_percentage_points,target_power,design,per_test_alpha,control_players,treatment_players,total_players,method
+retention_7,0.19020134228187918,0.19270134228187918,0.25,0.8,one_preregistered_primary,0.05,388792,388792,777584,"Cohen h / NormalIndPower, two-sided, 1:1 allocation"
+retention_7,0.19020134228187918,0.19270134228187918,0.25,0.8,three_tests_bonferroni_design,0.016666666666666666,518586,518586,1037172,"Cohen h / NormalIndPower, two-sided, 1:1 allocation"
+retention_7,0.19020134228187918,0.19270134228187918,0.25,0.9,one_preregistered_primary,0.05,520483,520483,1040966,"Cohen h / NormalIndPower, two-sided, 1:1 allocation"
+retention_7,0.19020134228187918,0.19270134228187918,0.25,0.9,three_tests_bonferroni_design,0.016666666666666666,669192,669192,1338384,"Cohen h / NormalIndPower, two-sided, 1:1 allocation"
+retention_7,0.19020134228187918,0.1952013422818792,0.5,0.8,one_preregistered_primary,0.05,97679,97679,195358,"Cohen h / NormalIndPower, two-sided, 1:1 allocation"
+retention_7,0.19020134228187918,0.1952013422818792,0.5,0.8,three_tests_bonferroni_design,0.016666666666666666,130288,130288,260576,"Cohen h / NormalIndPower, two-sided, 1:1 allocation"
+retention_7,0.19020134228187918,0.1952013422818792,0.5,0.9,one_preregistered_primary,0.05,130765,130765,261530,"Cohen h / NormalIndPower, two-sided, 1:1 allocation"
+retention_7,0.19020134228187918,0.1952013422818792,0.5,0.9,three_tests_bonferroni_design,0.016666666666666666,168126,168126,336252,"Cohen h / NormalIndPower, two-sided, 1:1 allocation"
+retention_7,0.19020134228187918,0.2002013422818792,1.0,0.8,one_preregistered_primary,0.05,24658,24658,49316,"Cohen h / NormalIndPower, two-sided, 1:1 allocation"
+retention_7,0.19020134228187918,0.2002013422818792,1.0,0.8,three_tests_bonferroni_design,0.016666666666666666,32889,32889,65778,"Cohen h / NormalIndPower, two-sided, 1:1 allocation"
+retention_7,0.19020134228187918,0.2002013422818792,1.0,0.9,one_preregistered_primary,0.05,33009,33009,66018,"Cohen h / NormalIndPower, two-sided, 1:1 allocation"
+retention_7,0.19020134228187918,0.2002013422818792,1.0,0.9,three_tests_bonferroni_design,0.016666666666666666,42441,42441,84882,"Cohen h / NormalIndPower, two-sided, 1:1 allocation"

@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.ipynb_checkpoints/
+
+# Download locally; do not publish the source dataset to Git.
+data/*.csv
+
+# Local source materials pending publication clearance
+notebooks/

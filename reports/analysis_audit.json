@@ -1,0 +1,46 @@
+{
+  "input": "cookie_cats.csv",
+  "players": 90189,
+  "data_sha256": "9f53027065840672e77303281289988371d4a6b67c7dcd3bd4e6306a2a263dc8",
+  "package_versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "statsmodels": "0.15.0",
+    "matplotlib": "3.11.2",
+    "seaborn": "0.13.2"
+  },
+  "missing_required_values": 0,
+  "duplicate_userids": 0,
+  "allocation_check": {
+    "expected_control_share": 0.5,
+    "observed_control": 44700,
+    "observed_treatment": 45489,
+    "chi2": 6.9024049496058275,
+    "p_value": 0.008607987810836243,
+    "alpha": 0.001,
+    "srm_flag": false,
+    "planned_ratio_verified": false,
+    "limitation": "Planned allocation is assumed unless supplied; SRM cannot verify covariate balance or interference."
+  },
+  "bootstrap_resamples": 5000,
+  "seed": 42,
+  "cv_folds": 5,
+  "hypothesis": "Two-sided equality of retention rates",
+  "multiplicity": "Holm over game rounds, day-1 retention and day-7 retention",
+  "intervals": "95% marginal intervals, not multiplicity-adjusted",
+  "strata": [],
+  "recommendation": "Do not roll out gate_40; verify planned allocation and exposure logs. Retention findings are conditional.",
+  "decision_status": "hold_for_unverified_allocation",
+  "prospective_planning": "Uses control day-7 retention as an estimated baseline; hypothetical MDEs, not observed power",
+  "limitations": [
+    "Retrospective analysis of an existing assignment; no new randomization performed",
+    "No planned allocation log or pre-treatment covariates in the original CSV",
+    "No session-duration, payment, social, progression or exposure-log fields",
+    "sum_gamerounds is post-treatment and excluded from causal adjustment and prediction",
+    "Treatment-only logistic CV assesses prediction, not causal identification or mechanisms",
+    "No live dashboard, A/A experiment or product rollout performed",
+    "SRM does not establish randomization, no contamination or no network interference",
+    "Bootstrap sign fractions are not posterior probabilities or hypothesis-test p-values"
+  ]
+}

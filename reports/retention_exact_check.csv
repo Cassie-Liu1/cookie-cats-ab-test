@@ -1,0 +1,3 @@
+metric,treatment_retained,treatment_not_retained,control_retained,control_not_retained,odds_ratio,fisher_p_value,fisher_p_holm_retention_pair
+retention_1,20119,25370,20034,24666,0.976375742632873,0.074707233724352,0.074707233724352
+retention_7,8279,37210,8502,36198,0.9472872405696028,0.001590961583984235,0.00318192316796847

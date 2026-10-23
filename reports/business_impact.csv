@@ -1,0 +1,3 @@
+metric,hypothetical_players_per_policy,delta_retained_players,bootstrap_ci_low_players,bootstrap_ci_high_players,interpretation
+retention_1,10000,-59.051697873414575,-122.16654376653649,5.65895346629298,"Scaled observed difference, conditional on experiment validity and transportability; not a forecast"
+retention_7,10000,-82.01298315205912,-132.7830764012422,-32.26304508162673,"Scaled observed difference, conditional on experiment validity and transportability; not a forecast"

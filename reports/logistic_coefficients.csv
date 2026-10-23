@@ -1,0 +1,5 @@
+metric,feature,coefficient,odds_ratio,odds_ratio_ci_low,odds_ratio_ci_high,p_value,interpretation
+retention_1,intercept,-0.2079949469542093,0.8122111408416562,0.7972109754391433,0.8274935464152591,5.108266179552031e-106,Unadjusted association; no behavioral mechanism identified
+retention_1,gate_40,-0.023907784449873865,0.9763757426328666,0.9510652618332156,1.0023598054294824,0.07441144354403813,Unadjusted association; no behavioral mechanism identified
+retention_7,intercept,-1.448702438749832,0.23487485496442123,0.22939187897370308,0.2404888862734414,0.0,Unadjusted association; no behavioral mechanism identified
+retention_7,gate_40,-0.05415291545181284,0.9472872405695726,0.916038594182476,0.9796018659527805,0.0015553757963344722,Unadjusted association; no behavioral mechanism identified
